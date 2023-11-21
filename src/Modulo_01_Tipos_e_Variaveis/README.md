@@ -42,3 +42,22 @@ O programa utiliza a classe `Scanner` para permitir a entrada de dados do usuár
 Scanner scanner = new Scanner(System.in);
 System.out.println("Digite um número inteiro:");
 int numeroDigitado = scanner.nextInt();
+```
+---
+<table>
+  <tr>
+    <td>
+      <img width="80px" align="center" src="https://avatars.githubusercontent.com/caiobello"/>
+    </td>
+    <td align="left">
+      <a href="https://github.com/caiobello">
+        <span><b>Caio B. Zamana</b></span>
+      </a>
+      <br>
+      <span>Desenvolvedor Full Stack</span>
+    </td>
+  </tr>
+</table>
+
+**Data:** 21/11/2023
+

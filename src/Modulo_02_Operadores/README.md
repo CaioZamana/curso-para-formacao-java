@@ -51,8 +51,20 @@ O programa `ExemploOperadores.java` pode ser compilado e executado em um ambient
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests para melhorias no código ou na documentação.
 
 ---
-
-**Autor:** Caio Zamana
+<table>
+  <tr>
+    <td>
+      <img width="80px" align="center" src="https://avatars.githubusercontent.com/caiobello"/>
+    </td>
+    <td align="left">
+      <a href="https://github.com/caiobello">
+        <span><b>Caio B. Zamana</b></span>
+      </a>
+      <br>
+      <span>Desenvolvedor Full Stack</span>
+    </td>
+  </tr>
+</table>
 
 **Data:** 21/11/2023
 
