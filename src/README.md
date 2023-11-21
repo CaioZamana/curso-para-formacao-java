@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # Curso para Formação em Java.
 
 ## Módulos
