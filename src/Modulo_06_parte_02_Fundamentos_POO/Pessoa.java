@@ -1,4 +1,4 @@
-package Modulo_06_Fundamentos_POO;
+package Modulo_06_parte_02_Fundamentos_POO;
 
 public class Pessoa {
     // Atributos
