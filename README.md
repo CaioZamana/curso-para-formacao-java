@@ -14,8 +14,11 @@
 ### Módulo 04: Estruturas Condicionais
 - Utilização de estruturas condicionais para controle de fluxo.
 
-### Módulo 05: Estruturas de Repetição
+### Módulo 05 - Parte 01: Estruturas de Repetição
 - Domínio de loops e iterações em Java.
+
+### Módulo 05 - Parte 02: Estruturas de Repetição no Java 8
+- Domínio de Foreach
 
 ### Módulo 06: Fundamentos POO
 - Introdução aos conceitos fundamentais da Programação Orientada a Objetos (POO).
@@ -52,10 +55,9 @@
 
 ### - [TODO] Módulo 12: TDD com JUnit
 - Aprendizado das práticas de Desenvolvimento Orientado a Testes (TDD) com JUnit.
- 
+
 ### - [TODO] Módulo 13: Spring Framework
 - Spring Boot
-
 
 <table>
   <tr>
