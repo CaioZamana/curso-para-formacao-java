@@ -41,10 +41,13 @@
 ###  Módulo 09: java.io Streams Readers Writers
 - Manipulação de entrada e saída de dados em Java.
 
-### Módulo 10: Collections
+### Módulo 10: Collections, Set, List e Map
 - Entendimento das estruturas de dados oferecidas pelo Java Collections Framework.
 
-###  Módulo 11: Stream API
+###  Módulo 11 - Parte 01: Stream API
+- Exploração da poderosa API de streams para manipulação eficiente de dados.
+
+###  Módulo 11 - Parte 02: Stream API
 - Exploração da poderosa API de streams para manipulação eficiente de dados.
 
 ### - [TODO] Módulo 12: TDD com JUnit

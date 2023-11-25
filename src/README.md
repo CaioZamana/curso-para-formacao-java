@@ -14,8 +14,11 @@
 ### Módulo 04: Estruturas Condicionais
 - Utilização de estruturas condicionais para controle de fluxo.
 
-### Módulo 05: Estruturas de Repetição
+### Módulo 05 - Parte 01: Estruturas de Repetição
 - Domínio de loops e iterações em Java.
+
+### Módulo 05 - Parte 02: Estruturas de Repetição no Java 8
+- Domínio de Foreach
 
 ### Módulo 06: Fundamentos POO
 - Introdução aos conceitos fundamentais da Programação Orientada a Objetos (POO).
@@ -38,10 +41,13 @@
 ### Módulo 08 - Parte 02: Tratamento de Exceção Personalizada em POO
 - Desenvolvimento de tratamento de exceções personalizadas na Programação Orientada a Objetos.
 
-### - [TODO] Módulo 09: java.io Streams Readers Writers
+### Módulo 09: java.io Streams
 - Manipulação de entrada e saída de dados em Java.
 
-### - [TODO] Módulo 10: Collections
+### Módulo 09: java.io Readers e Writers
+- Manipulação de escrita e leitura de text em Java.
+
+### Módulo 10: Collections
 - Entendimento das estruturas de dados oferecidas pelo Java Collections Framework.
 
 ###  - [TODO] Módulo 11: Stream API
