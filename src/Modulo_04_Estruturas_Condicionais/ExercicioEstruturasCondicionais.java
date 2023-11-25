@@ -2,7 +2,7 @@ package Modulo_04_Estruturas_Condicionais;
 
 import java.util.Scanner;
 
-public class EstruturasCondicionais {
+public class ExercicioEstruturasCondicionais {
 
     public static void main(String[] args) {
         // Criando um objeto Scanner para obter entrada do usuário
