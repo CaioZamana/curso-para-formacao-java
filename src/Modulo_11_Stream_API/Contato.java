@@ -1,4 +1,4 @@
-package Modulo_11_Stream_API.Stream;
+package Modulo_11_Stream_API;
 import java.util.Objects;
 
 public class Contato {

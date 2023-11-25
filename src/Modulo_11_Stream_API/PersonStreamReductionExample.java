@@ -1,4 +1,4 @@
-package Modulo_09_parte_01_java.io_Streams;
+package Modulo_11_Stream_API;
 
 
 import java.util.Arrays;
