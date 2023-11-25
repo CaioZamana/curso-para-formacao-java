@@ -51,10 +51,10 @@
 - Entendimento das estruturas de dados oferecidas pelo Java Collections Framework.
 
 ###  Módulo 11 - Stream API:
-####  Parte 01:
+####  Parte 01: Exemplos
 - Exploração da poderosa API de streams para manipulação eficiente de dados.
 
-####  Parte 02:
+####  Parte 02: Exercícios
 - Exploração da poderosa API de streams para manipulação eficiente de dados.
 
 ### - [TODO] Módulo 12: TDD com JUnit
