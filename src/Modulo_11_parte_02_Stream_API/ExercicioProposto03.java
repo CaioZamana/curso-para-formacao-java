@@ -1,4 +1,4 @@
-package Modulo_11_Stream_API;
+package Modulo_11_parte_02_Stream_API;
 
 
 import java.util.*;
@@ -14,7 +14,7 @@ public class ExercicioProposto03 {
 
     public static void main(String[] args) {
         System.out.println("--\tOrdem aleatória\t--");
-        Map<Integer, Contato> agenda = new HashMap<>() {{
+        Map<Integer, Contato> agenda = new HashMap<Integer, Contato>() {{
             put(1, new Contato("Simba", 5555));
             put(4, new Contato("Cami", 1111));
             put(3, new Contato("Jon", 2222));
@@ -25,7 +25,7 @@ public class ExercicioProposto03 {
         }
 
         System.out.println("--\tOrdem Inserção\t--");
-        Map<Integer, Contato> agenda1 = new LinkedHashMap<>() {{
+        Map<Integer, Contato> agenda1 = new LinkedHashMap<Integer, Contato>() {{
             put(1, new Contato("Simba", 5555));
             put(4, new Contato("Cami", 1111));
             put(3, new Contato("Jon", 2222));

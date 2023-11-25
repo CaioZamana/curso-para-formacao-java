@@ -1,4 +1,4 @@
-package Modulo_11_Stream_API;
+package Modulo_11_parte_01_Stream_API;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;

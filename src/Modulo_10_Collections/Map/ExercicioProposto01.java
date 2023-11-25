@@ -13,7 +13,7 @@ Dada a população estimada de alguns estados do nordeste brasileiro, faça:
 public class ExercicioProposto01 {
     public static void main(String[] args) {
         System.out.println("Crie um dicionário que relacione os estados e suas respectivas populações: ");
-        Map<String, Integer> populaçãoEstadosNE = new HashMap<>() {{
+        Map<String, Integer> populaçãoEstadosNE = new HashMap<String, Integer>() {{
             put("PE", 9616621);
             put("AL", 3351543);
             put("CE", 9187103);
@@ -33,7 +33,7 @@ public class ExercicioProposto01 {
         System.out.println("Exiba a população do estado PE: " + populaçãoEstadosNE.get("PE"));
 
         System.out.println("Exiba todos os estados e suas populaçãos na ordem em que foram informados: ");
-        Map<String, Integer> populaçãoEstadosNE2 = new LinkedHashMap<>() {{
+        Map<String, Integer> populaçãoEstadosNE2 = new LinkedHashMap<String, Integer>() {{
             put("PE", 9616621);
             put("AL", 3351543);
             put("CE", 9187103);

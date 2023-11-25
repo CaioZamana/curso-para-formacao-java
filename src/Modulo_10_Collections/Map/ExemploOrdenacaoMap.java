@@ -16,7 +16,7 @@ public class ExemploOrdenacaoMap {
     public static void main(String[] args) {
 
         System.out.println("--\tOrdem aleatória\t--");
-        Map<String, Livro> meusLivros = new HashMap<>() {{
+        Map<String, Livro> meusLivros = new HashMap<String, Livro>() {{
             put(" Hawking, Stephen", new Livro("Uma Breve História do Tempo", 256));
             put(" Duhigg, Charles", new Livro("O Poder do Hábito", 408));
             put(" Harari, Yuval Noah", new Livro("21 Lições Para o Século 21", 432));
@@ -25,7 +25,7 @@ public class ExemploOrdenacaoMap {
             System.out.println(livro.getKey() + " - " + livro.getValue().getNome());
 
         System.out.println("--\tOrdem Inserção\t--");
-        Map<String, Livro> meusLivros1 = new LinkedHashMap<>() {{
+        Map<String, Livro> meusLivros1 = new LinkedHashMap<String, Livro>() {{
             put(" Hawking, Stephen", new Livro("Uma Breve História do Tempo", 256));
             put(" Duhigg, Charles", new Livro("O Poder do Hábito", 408));
             put(" Harari, Yuval Noah", new Livro("21 Lições Para o Século 21", 432));

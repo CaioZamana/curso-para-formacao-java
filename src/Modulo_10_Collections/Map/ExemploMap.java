@@ -19,7 +19,7 @@ public class ExemploMap {
 //        Map<String, Double> carrosPopulares2020 = Map.of("gol", 14.4, "uno", 15.6, "mobi", 16.1, "hb20", 14.5, "kwid", 15.6)
 
         System.out.println("Crie um dicionário que relacione os modelos e seus respectivos consumos: ");
-        Map<String, Double> carrosPopulares = new HashMap<>() {{
+        Map<String, Double> carrosPopulares = new HashMap<String, Double>() {{
             put("gol", 14.4);
             put("uno", 15.6);
             put("mobi", 16.1);
@@ -87,7 +87,7 @@ public class ExemploMap {
         System.out.println(carrosPopulares);
 
         System.out.println("Exiba todos os carros na ordem em que foram informados: ");
-        Map<String, Double> carrosPopulares1 = new LinkedHashMap<>() {{
+        Map<String, Double> carrosPopulares1 = new LinkedHashMap<String, Double>() {{
             put("gol", 14.4);
             put("uno", 15.6);
             put("mobi", 16.1);

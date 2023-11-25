@@ -1,7 +1,4 @@
-package Modulo_11_Stream_API;
-
-import java.util.Arrays;
-import java.util.List;
+package Modulo_11_parte_01_Stream_API;
 
 class Person {
     private String name;

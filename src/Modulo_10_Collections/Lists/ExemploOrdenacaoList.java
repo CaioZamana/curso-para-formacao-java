@@ -31,7 +31,7 @@ import java.util.List;
 public class ExemploOrdenacaoList {
     public static void main(String[] args) {
 
-        List<Gato> meusGatos = new ArrayList<>(){{
+        List<Gato> meusGatos = new ArrayList<Gato>(){{
             add(new Gato("Jon", 12, "preto"));
             add(new Gato("Simba", 6, "tigrado"));
             add(new Gato("Jon", 18, "amarelo"));
