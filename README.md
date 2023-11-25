@@ -50,11 +50,11 @@
 ### Módulo 10: Collections, Set, List e Map
 - Entendimento das estruturas de dados oferecidas pelo Java Collections Framework.
 
-###  Módulo 11:
-####  Parte 01: Stream API
+###  Módulo 11 - Stream API:
+####  Parte 01:
 - Exploração da poderosa API de streams para manipulação eficiente de dados.
 
-####  Parte 02: Stream API
+####  Parte 02:
 - Exploração da poderosa API de streams para manipulação eficiente de dados.
 
 ### - [TODO] Módulo 12: TDD com JUnit
