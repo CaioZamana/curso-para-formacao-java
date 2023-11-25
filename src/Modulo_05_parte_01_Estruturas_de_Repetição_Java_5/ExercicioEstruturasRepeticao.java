@@ -1,8 +1,8 @@
-package Modulo_05_Estruturas_de_Repetição;
+package Modulo_05_parte_01_Estruturas_de_Repetição_Java_5;
 
 import java.util.Scanner;
 
-public class EstruturasRepeticao {
+public class ExercicioEstruturasRepeticao {
 
     public static void main(String[] args) {
         // Criando um objeto Scanner para obter entrada do usuário
