@@ -38,13 +38,13 @@
 ### Módulo 08 - Parte 02: Tratamento de Exceção Personalizada em POO
 - Desenvolvimento de tratamento de exceções personalizadas na Programação Orientada a Objetos.
 
-### - [TODO] Módulo 09: java.io Streams Readers Writers
+###  Módulo 09: java.io Streams Readers Writers
 - Manipulação de entrada e saída de dados em Java.
 
-### - [TODO] Módulo 10: Collections
+### Módulo 10: Collections
 - Entendimento das estruturas de dados oferecidas pelo Java Collections Framework.
 
-###  - [TODO] Módulo 11: Stream API
+###  Módulo 11: Stream API
 - Exploração da poderosa API de streams para manipulação eficiente de dados.
 
 ### - [TODO] Módulo 12: TDD com JUnit
