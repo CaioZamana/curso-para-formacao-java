@@ -1,8 +1,8 @@
 package Modulo_07_parte_02_Pilares_POO;
 
 
-import Modulo_07_parte_01_Classes_em_POO.Animal;
-import Modulo_07_parte_01_Classes_em_POO.Cachorro;
+import Modulo_07_parte_02_Pilares_POO.Exemplo.Animal;
+import Modulo_07_parte_02_Pilares_POO.Exemplo.Cachorro;
 
 
 public class PolimorfismoExemplo {

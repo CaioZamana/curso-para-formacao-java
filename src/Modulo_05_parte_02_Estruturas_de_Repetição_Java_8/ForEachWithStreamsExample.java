@@ -7,7 +7,6 @@ public class ForEachWithStreamsExample {
         List<Integer> numeros = Arrays.asList(1, 2, 3, 4, 5);
 
         numeros.forEach(num -> {
-            // Código a ser repetido
             System.out.println("Valor do número: " + num);
         });
     }

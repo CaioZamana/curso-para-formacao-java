@@ -1,4 +1,4 @@
-package Modulo_07_parte_01_Classes_em_POO;
+package Modulo_07_parte_02_Pilares_POO.Exemplo;
 
 public class Gato extends Animal {
     public Gato(String nome) {

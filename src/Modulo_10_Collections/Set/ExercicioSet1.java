@@ -1,6 +1,6 @@
 package Modulo_10_Collections.Set;
 
-import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.Scanner;
 import java.util.Set;
 
@@ -18,11 +18,13 @@ Utilizando a collection set, fazer o seguinte programa:
 
 * */
 
-public class NumberCollectionProgram {
+public class ExercicioSet1 {
 
     public static void main(String[] args) {
-        Set<Integer> listaNumerosSet = new HashSet<>();
+        Set<Integer> listaNumerosSet = new LinkedHashSet<>();
         Scanner scanner = new Scanner(System.in);
+
+        
 
         while (true) {
             System.out.println("Digite um número para adicionar a coleção HashSet \nPara parar o laço 1 digite -1 ");
@@ -31,14 +33,12 @@ public class NumberCollectionProgram {
             if (digito == -1) {
                 break;
             }
-
             if (listaNumerosSet.add(digito)) {
                 System.out.println("Número adicionado com sucesso.");
             } else {
                 System.out.println("Número não adicionado, pois ele já existe.");
             }
         }
-
 
 
         System.out.println("Total na coleção: " + listaNumerosSet.size());

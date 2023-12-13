@@ -10,6 +10,7 @@ public class ParallelForEachWithStreamsExample {
         numeros.parallelStream().forEach(num -> {
             // Código a ser repetido em paralelo
             System.out.println("Valor do número (paralelo): " + num);
-        });
+        }
+        );
     }
 }

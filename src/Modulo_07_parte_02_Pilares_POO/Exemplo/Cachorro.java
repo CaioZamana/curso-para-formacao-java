@@ -1,4 +1,4 @@
-package Modulo_07_parte_01_Classes_em_POO;
+package Modulo_07_parte_02_Pilares_POO.Exemplo;
 
 public class Cachorro extends Animal {
     public Cachorro(String nome) {
@@ -9,6 +9,7 @@ public class Cachorro extends Animal {
     public void emitirSom() {
         System.out.println("Latido");
     }
+
 
     @Override
     public void mover() {

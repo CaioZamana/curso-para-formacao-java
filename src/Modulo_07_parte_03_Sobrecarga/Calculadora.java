@@ -8,8 +8,4 @@ public class Calculadora {
     public double somar(double a, double b) {
         return a + b;
     }
-
-    public String concatenar(String a, String b) {
-        return a + b;
-    }
 }

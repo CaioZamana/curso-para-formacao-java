@@ -5,7 +5,9 @@ import java.util.*;
 public class ExCoresArcoIris {
     public static void main(String[] args) {
         System.out.println("Crie uma conjunto contendo as cores do arco-íris: ");
+
         Set<String> coresArcoIris = new HashSet<>();
+
         coresArcoIris.add("violeta");
         coresArcoIris.add("anil");
         coresArcoIris.add("azul");
@@ -13,6 +15,9 @@ public class ExCoresArcoIris {
         coresArcoIris.add("amarelo");
         coresArcoIris.add("laranja");
         coresArcoIris.add("vermelho");
+
+        coresArcoIris.iterator();
+
         System.out.println(coresArcoIris);
 
         System.out.println("Exiba todas as cores o arco-íris uma abaixo da outra: ");
@@ -23,16 +28,23 @@ public class ExCoresArcoIris {
         System.out.println("A quantidade de cores que o arco-íris tem: " + coresArcoIris.size());
 
         System.out.println("Exiba as cores em ordem alfabética: ");
+
         Set<String> coresArcoIris2 = new TreeSet<>(coresArcoIris);
         System.out.println(coresArcoIris2);
 
-        System.out.println("Exiba as cores na ordem inversa da que foi informada ");
-        Set<String> coresArcoIris3 = new LinkedHashSet<>(
-                Arrays.asList("violeta", "anil", "azul", "verde", "amarelo", "laranja", "vermelho"));
+        Set<String> coresArcoIris3 = new LinkedHashSet<>(Arrays.asList("violeta", "anil", "azul", "verde", "amarelo", "laranja", "vermelho"));
+        System.out.println("Exiba as cores da lista 3 ");
         System.out.println(coresArcoIris3);
+
+
+        System.out.println("Exiba as cores na ordem inversa da que foi informada ");
         List<String> coresArcoIrisList = new ArrayList<>(coresArcoIris3);
+
         Collections.reverse(coresArcoIrisList);
         System.out.println(coresArcoIrisList);
+
+
+
 
         System.out.println("Exiba todas as cores que começam com a letra ”v”: ");
         for (String cor: coresArcoIris) {
@@ -48,6 +60,7 @@ public class ExCoresArcoIris {
 
         System.out.println("Limpe o conjunto: ");
         coresArcoIris.clear();
+        System.out.println(coresArcoIris);
 
         System.out.println("Confira se o conjunto está vazio: " + coresArcoIris.isEmpty());
     }

@@ -17,7 +17,7 @@ Utilizando a collection set, fazer o seguinte programa:
 *
 * */
 
-public class NumberCollectionProgram2 {
+public class ExercicioSet2 {
 
     public static void main(String[] args) {
         Set<Integer> listaNumerosSet = new HashSet<>();
