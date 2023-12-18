@@ -2,24 +2,56 @@ package Modulo_10_Collections.ExercicioCollectionPoo;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
+/*
+* Você está desenvolvendo um sistema de gerenciamento de livros em Java para uma biblioteca. O sistema deve ser interativo, permitindo que o usuário realize diversas operações, como adição de novos livros, exibição da lista de livros, busca por título e saída do programa.
+
+Requisitos:
+
+Crie uma classe chamada Livro que contenha os seguintes atributos:
+
+String titulo: o título do livro.
+String autor: o autor do livro.
+double pontuacao: a pontuação do livro.
+
+Crie uma classe chamada ExercicioListaLivros que contenha os seguintes métodos:
+
+exibirLivro(Livro livro): exibe os detalhes de um livro (título, autor, pontuação).
+exibirLivros(List<Livro> livros): exibe os detalhes de todos os livros na lista.
+buscarLivroPorTitulo(List<Livro> livros, String titulo): recebe o título de um livro e retorna o livro correspondente da lista, ou null se não for encontrado.
+
+No método main, implemente um loop para exibir um menu de opções ao usuário. O menu deve incluir as seguintes opções:
+\
+1: Adicionar novo livro
+2: Exibir lista de livros
+3: Buscar livro por título
+0: Sair do programa
+
+Implemente a lógica para cada opção do menu.
+Se o usuário escolher a opção 1, solicite os detalhes do novo livro (título, autor, pontuação) e adicione-o à lista.
+Se o usuário escolher a opção 2, exiba a lista de livros.
+Se o usuário escolher a opção 3, solicite o título do livro a ser buscado e exiba os detalhes se o livro for encontrado, ou uma mensagem informando que o livro não foi encontrado.
+Se o usuário escolher a opção 0, encerre o programa.
+
+Observações:
+
+Utilize a interface List para armazenar os livros.
+Os métodos de busca e remoção devem ser implementados considerando o título do livro.*/
 public class ExercicioListaLivros {
 
-    public static void exibirLivro(Livro livro) {
+    public void exibirLivro(Livro livro) {
         System.out.println("Título: " + livro.getTitulo());
         System.out.println("Autor: " + livro.getAutor());
-        System.out.println("Pontuação: " + livro.getPontuacao() + "/n");
-
+        System.out.println("Pontuação: " + livro.getPontuacao() + "\n");
     }
 
-    public static void exibirLivros(List<Livro> livros) {
+    public void exibirLivros(List<Livro> livros) {
         for (Livro livro : livros) {
             exibirLivro(livro);
         }
     }
 
-    public static List<Livro> buscarLivrosPorTitulo(List<Livro> livros, String titulo) {
+    public List<Livro> buscarLivrosPorTitulo(List<Livro> livros, String titulo) {
         List<Livro> livrosEncontrados = new ArrayList<>();
         for (Livro livro : livros) {
             if (livro.getTitulo().equals(titulo)) {
@@ -33,64 +65,5 @@ public class ExercicioListaLivros {
         }
     }
 
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        List<Livro> listaDeLivros = new ArrayList<>();
-        int digito;
 
-        do {
-            System.out.println("\nMenu: ");
-            System.out.println("1: Adicionar novo Livro");
-            System.out.println("2: Exibir lista de Livros");
-            System.out.println("3: Buscar Livro por Título");
-            System.out.println("0: Sair do programa");
-
-            System.out.println("Digite o número que deseja: ");
-
-            digito = scanner.nextInt();
-            scanner.nextLine(); //consumir linha
-
-            switch (digito) {
-                case 1:
-                    System.out.println("Digite o título do livro");
-                    String novoTitulo = scanner.nextLine();
-                    System.out.println("Digite o autor do livro");
-                    String novoAutor = scanner.nextLine();
-                    System.out.println("Digite a pontuação do livro");
-                    Double novaPontuacao = scanner.nextDouble();
-                    Livro novoLivro = new Livro(novoTitulo, novoAutor, novaPontuacao);
-                    listaDeLivros.add(novoLivro);
-                    break;
-
-                case 2:
-                    if (listaDeLivros.isEmpty()) {
-                        System.out.println("A lista está vazia.\n");
-                    } else {
-                        exibirLivros(listaDeLivros);
-                    }
-                    break;
-
-                case 3:
-                    System.out.print("Digite o título que deseja buscar: ");
-                    String tituloBusca = scanner.nextLine();
-                    List<Livro> livrosEncontrados = buscarLivrosPorTitulo(listaDeLivros, tituloBusca);
-
-                    if (livrosEncontrados == null) {
-                        System.out.println("Livro não encontrado\n");
-                    } else {
-                        exibirLivros(livrosEncontrados);
-                    }
-                    break;
-
-                case 0:
-                    System.out.println("O programa está sendo encerrado \n");
-                    break;
-
-                default:
-                    System.err.println("Opção inválida.\n");
-            }
-        } while (digito != 0);
-
-        scanner.close();
-    }
 }
