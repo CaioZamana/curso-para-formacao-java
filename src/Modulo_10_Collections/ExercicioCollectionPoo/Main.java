@@ -14,6 +14,7 @@ public class Main {
 
 
         int digito;
+
         do {
             System.out.println("\nMenu de opções: ");
             System.out.println("1: Adicionar novo Livro");

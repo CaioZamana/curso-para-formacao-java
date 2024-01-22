@@ -6,5 +6,8 @@ public class ForTradicionalExample {
             // Código a ser repetido
             System.out.println("Valor de i: " + i);
         }
+
+
     }
 }
+

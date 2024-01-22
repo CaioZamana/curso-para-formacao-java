@@ -40,14 +40,16 @@ Os métodos de busca e remoção devem ser implementados considerando o título 
 public class ExercicioListaLivros {
 
     public void exibirLivro(Livro livro) {
+
         System.out.println("Título: " + livro.getTitulo());
         System.out.println("Autor: " + livro.getAutor());
         System.out.println("Pontuação: " + livro.getPontuacao() + "\n");
     }
 
-    public void exibirLivros(List<Livro> livros) {
-        for (Livro livro : livros) {
-            exibirLivro(livro);
+
+    public void exibirLivros(List<Livro> listaDelivros) {
+        for (Livro unidadePercorridaLivro : listaDelivros) {
+            exibirLivro(unidadePercorridaLivro);
         }
     }
 
@@ -64,6 +66,4 @@ public class ExercicioListaLivros {
             return livrosEncontrados;
         }
     }
-
-
 }
