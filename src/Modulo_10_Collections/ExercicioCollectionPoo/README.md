@@ -12,7 +12,7 @@ Crie uma classe chamada ExercicioListaLivros que contenha os seguintes métodos:
 
 exibirLivro(Livro livro): exibe os detalhes de um livro (título, autor, pontuação).
 exibirLivros(List<Livro> livros): exibe os detalhes de todos os livros na lista.
-buscarLivroPorTitulo(List<Livro> livros, String titulo): recebe o título de um livro e retorna o livro correspondente da lista, ou null se não for encontrado.
+buscarLivrosPorTitulo(List<Livro> livros, String titulo): recebe o título de um livro e retorna uma lista contendo os livros correspondentes, ou null se nenhum for encontrado.
 
 No método main, implemente um loop para exibir um menu de opções ao usuário. O menu deve incluir as seguintes opções:
 
