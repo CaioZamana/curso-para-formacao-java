@@ -50,10 +50,10 @@ public class Main {
                 case 3:
                     System.out.print("Digite o título que deseja buscar: ");
                     String tituloBusca = scanner.nextLine();
-                    List<Livro> livrosEncontrados = exercicioListaLivros.buscarLivrosPorTitulo(listaDeLivros, tituloBusca);
+                    Livro livroEncontrado = exercicioListaLivros.buscarLivroPorTitulo(listaDeLivros, tituloBusca);
 
-                    if (livrosEncontrados != null) {
-                        exercicioListaLivros.exibirLivros(livrosEncontrados);
+                    if (livroEncontrado != null) {
+                        exercicioListaLivros.exibirLivro(livroEncontrado);
                     } else {
                         System.out.println("Livro não encontrado\n");
                     }
