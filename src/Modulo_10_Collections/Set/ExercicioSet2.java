@@ -23,15 +23,49 @@ public class ExercicioSet2 {
         Set<Integer> listaNumerosSet = new HashSet<>();
         Scanner scanner = new Scanner(System.in);
 
+        // Adiciona números na coleção até que o usuário digite -1
         while (true) {
-            System.out.println("Digite um numero para adicionar a coleção");
+            System.out.println("Digite um número para adicionar a coleção HashSet" +
+                    "\nPara encerrar o laço digite -1");
             int digito = scanner.nextInt();
 
-            if ( digito == 10) {
-                System.out.println("Pular amarelinha");
+            if (digito == -1) {
+                break;
+            }
+
+            if (listaNumerosSet.add(digito)) {
+                System.out.println("Número adicionado com sucesso.");
             } else {
-                System.out.println("Soltar Pipa");
+                System.out.println("Número não adicionado, pois ele já existe.");
             }
         }
+
+        // Exibe a quantidade e todos os números armazenados
+        System.out.println("Total na coleção: " + listaNumerosSet.size());
+        System.out.println("Números da coleção:");
+        listaNumerosSet.forEach(System.out::println);
+
+        // Remove números da coleção até que o usuário digite -1
+        while (true) {
+            System.out.println("Digite um número para remover da coleção HashSet" +
+                    "\nPara encerrar o programa digite -1");
+            int digito = scanner.nextInt();
+
+            if (digito == -1) {
+                break;
+            }
+
+            if (listaNumerosSet.remove(digito)) {
+                System.out.println("Número removido com sucesso.");
+            } else {
+                System.out.println("Número não removido, pois ele não existe.");
+            }
+        }
+
+        System.out.println("Quantidade de números na coleção: " + listaNumerosSet.size());
+        System.out.println("Números que sobraram na coleção:");
+        listaNumerosSet.forEach(System.out::println);
+
+        scanner.close();
     }
 }
