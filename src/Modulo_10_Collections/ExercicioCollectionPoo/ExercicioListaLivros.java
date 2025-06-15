@@ -53,17 +53,12 @@ public class ExercicioListaLivros {
         }
     }
 
-    public List<Livro> buscarLivrosPorTitulo(List<Livro> livros, String titulo) {
-        List<Livro> livrosEncontrados = new ArrayList<>();
+    public Livro buscarLivroPorTitulo(List<Livro> livros, String titulo) {
         for (Livro livro : livros) {
             if (livro.getTitulo().equals(titulo)) {
-                livrosEncontrados.add(livro);
+                return livro;
             }
         }
-        if (livrosEncontrados.isEmpty()) {
-            return null;
-        } else {
-            return livrosEncontrados;
-        }
+        return null;
     }
 }
